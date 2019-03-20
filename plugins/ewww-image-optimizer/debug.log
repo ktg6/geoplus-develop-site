@@ -1,0 +1,10 @@
+2019-03-20 03:42:14
+<b>ewww_image_optimizer_gallery_support()</b>
+<b>ewww_image_optimizer_admin_init()</b>
+<b>ewww_image_optimizer_cloud_init()</b>
+<b>ewww_image_optimizer_upgrade()</b>
+<b>ewww_image_optimizer_exec_init()</b>
+<b>ewww_image_optimizer_cron_setup()</b>
+<b>ewww_image_optimizer_ajax_compat_check()</b>
+<b>EWWWIO_Tracking::schedule_send()</b>
+testing async handling, received 949c34123cf2a4e4ce2f985135830df4a1b2adc24905f53d2fd3f5df5b162932
