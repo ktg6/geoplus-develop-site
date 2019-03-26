@@ -91,4 +91,3 @@ if ( ys_is_amp() ) {
 	 * パンくずリスト
 	 */
 	get_template_part( 'template-parts/breadcrumbs/breadcrumbs' );
-	?>
