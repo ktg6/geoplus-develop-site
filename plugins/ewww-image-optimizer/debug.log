@@ -5824,3 +5824,12 @@ creating new record, path: /app/public/wp-content/uploads/2019/03/plannningheads
 <b>ewww_image_optimizer_cron_setup()</b>
 <b>ewww_image_optimizer_ajax_compat_check()</b>
 <b>EWWWIO_Tracking::schedule_send()</b>
+2019-03-30 12:49:20
+<b>ewww_image_optimizer_gallery_support()</b>
+<b>ewww_image_optimizer_admin_init()</b>
+<b>ewww_image_optimizer_cloud_init()</b>
+<b>ewww_image_optimizer_upgrade()</b>
+<b>ewww_image_optimizer_exec_init()</b>
+<b>ewww_image_optimizer_cron_setup()</b>
+<b>ewww_image_optimizer_ajax_compat_check()</b>
+<b>EWWWIO_Tracking::schedule_send()</b>
