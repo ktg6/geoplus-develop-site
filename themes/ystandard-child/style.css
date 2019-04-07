@@ -12,3 +12,877 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*about A案①*/
+
+/*背景画像の挿入用CSS*/
+#background-draft{
+	background-image: url("https://geoplustest1.local/wp-content/uploads/2019/03/about_background.jpg");
+	background-repeat: no-repeat;
+	background-size:contain;
+	width: 100%;
+  height: auto;
+	
+}
+
+/*背景画像の装飾文字*/
+.geoplus_logo {
+	width:300px;
+	height:150px;
+	color: white;
+ font-weight: 500;
+ position: relative;
+ top: -560px;
+ left: 570px;
+}
+
+.geoplus_text {
+	list-style:none;
+	text-align: center;
+}
+
+.gtext_top {
+	font-size:18px;
+}
+
+.gtext_middle {
+	font-size:48px;
+	margin: -25px 0px;
+}
+
+.gtext_bottom {
+	font-size:24px;
+}
+
+/*全体の幅調整*/
+.contents_width{
+	max-width: 800px;
+	margin-left:40px;
+	margin-right: 30px;
+	height: auto;
+}
+
+
+/*テキスト全般*/
+/*冒頭のテキスト*/
+.top_font{
+	font-size:24px;
+}
+
+/*左寄せのテキスト*/
+.text_leftalign{
+		font-size: 18px;
+    line-height: 3;
+}
+
+/*文字のCSS*/
+.text_left {
+	  font-size: 18px;
+    line-height: 3;
+}
+
+.text_right {
+	font-size: 18px;
+    text-align: right;
+    line-height: 3;
+	padding-right: 30px;
+}
+
+.text_right_arrange {
+	font-size: 18px;
+    line-height: 3;
+	padding-right: 20%;
+	width: 400px;
+}
+
+/*文字の右寄せ*/
+.text_right_about {
+	display:table-cell;
+	vertical-align:top;
+	text-align: right;
+	font-size: 17px;
+	line-height: 3;
+	position: relative;
+  left: 50%;
+}
+
+/*テキスト+画像のブロック*/
+/*下揃え*/
+.image_box {
+  	max-width: 800px;
+	  display: flex;
+justify-content: space-between;
+	align-items: flex-end;
+}
+
+/*上揃え*/
+.image_box_toparrange {
+  	max-width: 800px;
+	  display: flex;
+justify-content: space-between;
+}
+
+.image_box_middlearrange {
+	  	max-width: 800px;
+	  display: flex;
+justify-content: space-between;
+	align-items: center;
+}
+
+/*画像右①*/
+.right_image{
+	vertical-align:bottom;
+  width: 450px;
+	height: 330px;
+}
+
+
+/*画像左①*/
+.files {
+	width: 250px;
+	height:170px;
+}
+/*画像左②*/
+.work_desk {
+width: 380px;
+height: 230px;
+}
+
+/*画像の串刺し横並び*/
+.image_skewer {
+	border-collapse: separate;
+	border-spacing: 20px 0;
+}
+
+.image_sidebyside{
+	display:table;
+	margin-left: 0px;
+}
+
+.image_sidebyside li{
+	list-style: none;
+	display:table-cell;
+	vertical-align: middle;
+	table-layout: fixed;
+}
+
+/*A案の見出し*/
+.square_heading {
+    padding: 0.4em 1.3em;
+    background-color: black;
+    transition: .4s;
+    font-size: 30px;
+	  color: white;
+	  text-align: center;
+    width: 360px;
+    margin: auto;
+}
+
+.square_heading_member {
+    padding: 0.4em 1.3em;
+    background-color: black;
+    transition: .4s;
+    font-size: 14px;
+	  color: white;
+	  text-align: center;
+    width: 110px;
+	margin-left: 38px;
+}
+
+.square_heading_information {
+    padding: 0.4em 1.3em;
+    background-color: black;
+    transition: .4s;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    width: 155px;
+    margin-left: 38px;
+}
+
+
+/*about B案トップ*/
+.about_logo_btype {
+	width:100%;
+	height:auto;
+}
+
+/*about 見出し*/
+.h2_number {
+	display:inline;
+	   position: relative;
+    top: -50px;
+    left: 150px;
+}
+
+.title_number {
+	font-size:10px;
+	    width: 30px;
+	display: inline-flex;
+	position: relative;
+    top: -5px;
+}
+
+.title_number:before {
+	content: '#';
+}
+
+.title_number:after {
+    content: '';
+    position: absolute;
+    top: 18px;
+    right: 10%;
+    display: inline-block;
+    width: 180px;
+    height: 1px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.title {
+	width: 170px;
+	height:30px;
+	display: inline-flex;
+}
+
+/*トップの見出し下文章ブロック*/
+.text_middle_top {
+	font-size: 28px;
+  text-align: center;
+}
+
+/*中央寄せの文章ブロック*/
+.text_middle {
+	font-size: 18px;
+    text-align: center;
+    line-height: 3;
+}
+
+/*中央寄せ連続見出しブロック*/
+.text_middle_continuity {
+	font-size: 18px;
+  text-align: center;
+}
+
+/*〜理由は、の画像ブロック〜*/
+.image_margin {
+  width:100%;
+	height:auto;
+}
+
+#ceo_block {
+	display:flex;
+	padding-left: 40px;
+}
+
+/*代表の紹介ブロック*/
+#ceo_information {
+	width: 565px;
+  height: 560px;
+  padding-left: 35px;
+	margin-bottom: 80px;
+}
+
+/*西村憲一さんのフォントサイズ*/
+.ceo {
+	font-size:26px;
+}
+
+/*アルファベッドのフォント横並び*/
+.ceo_alphabet {
+	display: inline-flex;
+}
+
+.licence {
+	display: inline-flex;
+	font-size: 13px;
+	padding-left: 15px;
+}
+
+/*略歴のテキスト*/
+.ceo_description {
+	line-height:2.0;
+}
+
+/*略歴*/
+.biography {
+	position:relative;
+	left: 100px;
+	padding: 5px 0;
+}
+
+/*代表紹介のリストブロック*/
+.biography_block {
+	display: inline-flex;
+	width: 515px;
+  height: 300px;
+}
+
+.biography_list {
+	list-style: none;
+	margin-top:0em;
+	margin-left: 0em;
+	padding-right: 15px;
+}
+
+.biography_list_ad {
+	list-style: none;
+	margin-top:0em;
+	margin-left: 0em;
+	padding-right: 15px;
+}
+
+/*空白のリスト*/
+.empty_biography {
+	height:26.6px;
+}
+
+.empty_officeinfo {
+	height: 22.8px;
+}
+
+/*staffの画像横並びリスト*/
+.staff_infoimage {
+	width:100%;
+	margin-bottom: 50px;
+}
+
+/*staffの画像*/
+.staff_image {
+ list-style:none;
+	list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.staff_image li{
+	display: inline;
+text-align: center;
+}
+
+/*staffの名前*/
+.staff_name {
+	padding-top: 15px;
+}
+
+.staff_name_alphabet {
+	font-size:13px;
+}
+
+/*事務所情報のブロック*/
+#office_info {
+	display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+
+/*事務所情報タイトル*/
+.office_info_top {
+	display:flex;
+	align-items: center;
+	padding: 0 0 0 35px;
+	font-size: 12px;
+	width: 135px;
+}
+
+.office_list_element {
+		margin-top:0em;
+	margin-left: 0em;
+	padding-right: 20px;
+	list-style: none;
+	font-size: 12px;
+	width: 105px;
+white-space: nowrap;
+}
+
+.office_list_back {
+	list-style: none;
+  margin-top: 0em;
+  margin-left: 0em;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+.office_performance {
+	list-style: none;
+  margin-top: 0em;
+  margin-left: 1em;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+/*misson*/
+/*ページの大枠*/
+.mission_width {
+	width:100%;
+	height:auto;
+}
+
+/*ページの区切り枠*/
+.mission_section {
+	max-width:1000px;
+	height:500px;
+}
+
+/*ページの表示領域*/
+.mission_pagewidth {
+	max-width:875px;
+	height:500px;
+}
+
+/*区切り線*/
+.benz_hr {
+	position:relative;
+  top: -50px;
+}
+
+.asami_hr{
+	position:relative;
+	top: -70px;
+}
+
+.mitakara_hr {
+	position:relative;
+	   top: -275px;
+}
+
+.hr_Ashino {
+	position:relative;
+  top: -118px;
+}
+
+/*misson ベンツ*/
+/*ベンツのテキストブロック*/
+.merceds-benz-text {
+	width:250px;
+	height:220px;
+}
+
+/*ベンツのテキスト・リスト*/
+.benz-list{
+	font-size:12px;
+	list-style-type:none;
+	margin:0;
+	padding-top:65px;
+}
+
+/*左下の画像*/
+.layout_benz {
+	padding-top: 40px;
+}
+
+/*右の画像*/
+.benz_shop_image {
+		width: auto;
+    height: 430px;
+    position: relative;
+    top: -200px;
+    left: 300px
+}
+
+/*misson 浅見*/
+/*下のブロック*/
+.asamigolfclub_bottom{
+	width:800px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	position:relative;
+	top: 5px;
+}
+
+/*misson みたから幼稚園*/
+/*全体のブロック*/
+.mission_section_mitakara{
+		max-width:1000px;
+	height:450px;
+}
+.mitakara_image {
+	width:auto;
+	height:400px;
+}
+
+/*mitakaraのフォントブロック*/
+.heading_font_block_mitakara {
+	width:300px;
+	height:50px;
+	position:relative;
+	 top: -375px;
+  left: 480px;
+	text-align:right;
+}
+/*mitakaraの下画像*/
+.mitakara_drawn {
+	position:relative;
+	  top: -210px;
+    left: 430px;
+}
+
+/*misson アクーユ芦野*/
+/*全体のブロック*/
+.mission_section_ashino{
+	max-width:1000px;
+	height: 450px;
+}
+
+/*左上のテキスト*/
+.ashinoclub-text {
+	width:250px;
+	height:220px;
+	padding-top: 20px;
+}
+
+/*左下の画像*/
+.layout_ashino {
+	padding-top: 120px;
+}
+
+/*右の画像*/
+.ashino_shop_image {
+	width: 390px;
+  height: 370px;
+  position: relative;
+  top: -200px;
+  left: 300px;
+}
+
+/*misson夕焼けのブロック*/
+/*ブロックのCSS*/
+.mission_section_other {
+	max-width: 1000px;
+    height: 500px;
+	position: relative;
+  top: 50px;
+}
+
+/*左の画像*/
+.sunset_image {
+	width:300px;
+	height: 390px;
+	position: relative;
+  top: -25px;
+}
+
+/*右の画像ブロック*/
+.other_twophoto {
+	display:flex;
+	flex-flow: column nowrap;
+	position: relative;
+  top: -415px;
+  left: 350px;
+}
+
+/*右上の画像ブロック*/
+.other_restrant {
+	width: 270px;
+  height: 180px;
+	margin-bottom: 30px;
+}
+
+
+/*右下の画像*/
+.other_terrace {
+	width:420px;
+	height:180px;
+}
+
+/*misson ベンツのリンク先*/
+/*ブロックCSS*/
+.mission_section_benzlink{
+	   max-width: 1000px;
+    display: flex;
+}
+
+.benz_leftimage{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    width: 400px;
+}
+
+.benz_rightimage{
+	   flex-flow: column;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+/*左上の画像*/
+.benz_top_leftimage {
+	width:400px;
+	height: 275px;
+}
+
+/*左下の画像*/
+.benz_bottom_leftimage {
+	width:210px;
+  height: 100px;
+}
+
+/*右上の画像*/
+.benz_top_rightimage {
+	width:220px;
+	height: 125px;
+}
+
+/*右下の画像*/
+.benz_bottom_rightimage {
+	width: 280px;
+  height: 250px;
+}
+
+/*misson 浅見のリンク先*/
+/*左上の画像*/
+.asami_top_leftimage {
+	    width: 350px;
+    height: 256px;
+}
+
+/*左下の画像*/
+.asami_bottom_leftimage {
+	width: 200px;
+  height: 130px;
+}
+
+/*右上の画像*/
+.asami_top_rightimage {
+	    width: 270px;
+    height: 340px;
+}
+
+/*missonみたからのリンク先*/
+/*ブロックCSS*/
+.mitakara_rightimage{
+    flex-flow: column;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+/*左上の画像*/
+.mitakara_top_leftimage {
+	    width: 320px;
+    height: 256px;
+}
+
+/*左下の画像*/
+.mitakara_bottom_leftimage {
+	width: 200px;
+  height: 130px;
+}
+
+/*右上の画像*/
+.mitakara_top_rightimage {
+	    width: 240px;
+    height: 150px;
+}
+
+/*右下の画像*/
+.mitakara_bottom_rightimage {
+	   width: 350px;
+    height: 240px;
+}
+
+/*misson芦野のリンク先*/
+/*ブロックCSS*/
+.misson_section_ashinolink {
+	   max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ashino_topblock {
+	max-width:900px;
+	height:350px;
+	display:flex;
+	align-items: flex-end;
+	padding-bottom: 30px;
+}
+
+.ashino_bottomblock {
+	max-width:900px;
+	height:150px;
+	display:flex;
+	justify-content: flex-end;
+	position: relative;
+    left: 100px;
+}
+
+/*左上の画像*/
+.ashino_top_leftimage {
+	   width: 150px;
+    height: 200px;
+	  margin-right: 40px;
+}
+
+/*右上の画像*/
+.ashino_top_rightimage {
+	    width: 450px;
+    height: 300px;
+}
+
+/*左下の画像*/
+.ashino_bottom_leftimage {
+	width: 300px;
+  height: 100px;
+	margin-right: 40px;
+}
+
+/*右下の画像*/
+.ashino_bottom_rightimage {
+	   width: 200px;
+    height: 100px;
+}
+
+
+/*missonの共用CSS*/
+/*見出しのブロック*/
+.heading_font_block{
+	width:300px;
+  height: 0px;
+}
+
+/*見出しのテキスト*/
+.heading_font{
+	font-size:24px;
+	width: 270px;
+}
+
+/*見出し下のテキスト*/
+.heading_bottom_font{
+	font-size:12px;
+	margin-top: 0px;
+	width: 270px;
+}
+
+/*見出し下のテキスト*/
+.font_small{
+	font-size:12px;
+}
+
+/*西暦*/
+.ad_benz{
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size:16px;
+	position: relative;
+  top: -500px;
+	left: 820px;
+}
+
+.ad_asami{
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size:16px;
+	position: relative;
+      top: -380px;
+		    left: 820px;
+}
+
+.ad_mitakara{
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size:16px;
+	position: relative;
+  top: -460px;
+  left: 820px;
+}
+
+.ad_ashino {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size:16px;
+	position: relative;
+    top: -400px;
+		left: 820px;
+}
+
+.other{
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size:20px;
+	position: relative;
+   top: -810px;
+   left: 820px;
+}
+
+.link_title_benz {
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-size: 16px;
+}
+
+.link_title_asami {
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-size: 16px;
+}
+
+.link_title_mitakara{
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-size: 16px;
+    position:relative;
+    left: 20px;
+}
+
+.link_title_ashino {
+	   writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-size: 16px;
+	  position: relative;
+    top: -130px;
+    left: 20px;
+}
+
+/*recruit*/
+.recruit{
+	max-width: 700px;
+  margin: auto;
+	height: auto;
+}
+
+.recruit_image{
+	padding:100px 0 50px;
+	margin: auto;
+  display: block;
+}
+
+/*contact*/
+.contact_information{
+max-width: 900px;
+    margin: auto;
+    height: auto;
+    text-align: center;
+	   padding-top: 150px;
+}
+
+/*余白用のdiv*/
+
+.mb_10 {
+margin-bottom: 10px;
+}
+
+.mb_30 {
+margin-bottom: 30px;
+}
+
+.mb_50 {
+margin-bottom: 50px;
+}
+
+.mb_70 {
+margin-bottom: 100px;
+}
+
+.mb_100 {
+margin-bottom: 100px;
+}
