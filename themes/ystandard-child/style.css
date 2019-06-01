@@ -20,6 +20,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	margin: 0;
 }
 
+
+ /*レスポンシブ スマホ対応*/
+@media screen and (min-width: 481px){
+
 /*about A案①*/
 
 /*背景画像の挿入用CSS*/
@@ -29,7 +33,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	background-size:contain;
 	width: 100%;
   height: auto;
-	
 }
 
 /*背景画像の装飾文字*/
@@ -50,11 +53,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .gtext_top {
 	font-size:18px;
+	font-family: aw-conqueror-didot, serif;
 }
 
 .gtext_middle {
 	font-size:48px;
 	margin: -25px 0px;
+	font-family: aw-conqueror-didot, serif;
 }
 
 .gtext_bottom {
@@ -179,10 +184,11 @@ height: 230px;
     background-color: black;
     transition: .4s;
     font-size: 30px;
-	  color: white;
-	  text-align: center;
-    width: 360px;
+	color: white;
+	text-align: center;
+    width:  365px;
     margin: auto;
+    font-family: aw-conqueror-didot, serif;
 }
 
 .square_heading_member {
@@ -192,8 +198,9 @@ height: 230px;
     font-size: 14px;
 	  color: white;
 	  text-align: center;
-    width: 110px;
+    width:  115px;
 	margin-left: 38px;
+	font-family: aw-conqueror-didot, serif;
 }
 
 .square_heading_information {
@@ -203,8 +210,9 @@ height: 230px;
     font-size: 14px;
     color: white;
     text-align: center;
-    width: 155px;
+    width:  165px;
     margin-left: 38px;
+    font-family: aw-conqueror-didot, serif;
 }
 
 
@@ -250,6 +258,7 @@ height: 230px;
 	width: 170px;
 	height:30px;
 	display: inline-flex;
+	font-family: aw-conqueror-didot, serif;
 }
 
 /*トップの見出し下文章ブロック*/
@@ -298,6 +307,7 @@ height: 230px;
 /*アルファベッドのフォント横並び*/
 .ceo_alphabet {
 	display: inline-flex;
+	font-family: aw-conqueror-didot, serif;
 }
 
 .licence {
@@ -356,8 +366,7 @@ height: 230px;
 
 /*staffの画像*/
 .staff_image {
- list-style:none;
-	list-style: none;
+  list-style:none;
   display: flex;
   justify-content: space-around;
 }
@@ -374,6 +383,7 @@ text-align: center;
 
 .staff_name_alphabet {
 	font-size:13px;
+	font-family: aw-conqueror-didot, serif;
 }
 
 /*事務所情報のブロック*/
@@ -455,7 +465,7 @@ white-space: nowrap;
 
 .hr_Ashino {
 	position:relative;
-  top: -118px;
+  	top: -118px;
 }
 
 /*misson ベンツ*/
@@ -463,6 +473,7 @@ white-space: nowrap;
 .merceds-benz-text {
 	width:250px;
 	height:220px;
+	font-family: aw-conqueror-didot, serif;
 }
 
 /*ベンツのテキスト・リスト*/
@@ -480,7 +491,7 @@ white-space: nowrap;
 
 /*右の画像*/
 .benz_shop_image {
-		width: auto;
+	width: auto;
     height: 430px;
     position: relative;
     top: -200px;
@@ -502,7 +513,7 @@ white-space: nowrap;
 /*misson みたから幼稚園*/
 /*全体のブロック*/
 .mission_section_mitakara{
-		max-width:1000px;
+	max-width:1000px;
 	height:450px;
 }
 .mitakara_image {
@@ -515,14 +526,14 @@ white-space: nowrap;
 	width:300px;
 	height:50px;
 	position:relative;
-	 top: -375px;
-  left: 480px;
+	top: -375px;
+  	left: 480px;
 	text-align:right;
 }
 /*mitakaraの下画像*/
 .mitakara_drawn {
 	position:relative;
-	  top: -210px;
+	top: -210px;
     left: 430px;
 }
 
@@ -548,10 +559,10 @@ white-space: nowrap;
 /*右の画像*/
 .ashino_shop_image {
 	width: 390px;
-  height: 370px;
-  position: relative;
-  top: -200px;
-  left: 300px;
+  	height: 370px;
+  	position: relative;
+  	top: -200px;
+  	left: 300px;
 }
 
 /*misson夕焼けのブロック*/
@@ -560,7 +571,7 @@ white-space: nowrap;
 	max-width: 1000px;
     height: 500px;
 	position: relative;
-  top: 50px;
+  	top: 50px;
 }
 
 /*左の画像*/
@@ -568,7 +579,7 @@ white-space: nowrap;
 	width:300px;
 	height: 390px;
 	position: relative;
-  top: -25px;
+  	top: -25px;
 }
 
 /*右の画像ブロック*/
@@ -576,14 +587,14 @@ white-space: nowrap;
 	display:flex;
 	flex-flow: column nowrap;
 	position: relative;
-  top: -415px;
-  left: 350px;
+  	top: -415px;
+  	left: 350px;
 }
 
 /*右上の画像ブロック*/
 .other_restrant {
 	width: 270px;
-  height: 180px;
+  	height: 180px;
 	margin-bottom: 30px;
 }
 
@@ -597,7 +608,7 @@ white-space: nowrap;
 /*misson ベンツのリンク先*/
 /*ブロックCSS*/
 .mission_section_benzlink{
-	   max-width: 1000px;
+	max-width: 1000px;
     display: flex;
 }
 
@@ -624,7 +635,7 @@ white-space: nowrap;
 /*左下の画像*/
 .benz_bottom_leftimage {
 	width:210px;
-  height: 100px;
+  	height: 100px;
 }
 
 /*右上の画像*/
@@ -636,25 +647,25 @@ white-space: nowrap;
 /*右下の画像*/
 .benz_bottom_rightimage {
 	width: 280px;
-  height: 250px;
+  	height: 250px;
 }
 
 /*misson 浅見のリンク先*/
 /*左上の画像*/
 .asami_top_leftimage {
-	    width: 350px;
+	width: 350px;
     height: 256px;
 }
 
 /*左下の画像*/
 .asami_bottom_leftimage {
 	width: 200px;
-  height: 130px;
+  	height: 130px;
 }
 
 /*右上の画像*/
 .asami_top_rightimage {
-	    width: 270px;
+	width: 270px;
     height: 340px;
 }
 
@@ -669,32 +680,32 @@ white-space: nowrap;
 
 /*左上の画像*/
 .mitakara_top_leftimage {
-	    width: 320px;
+	width: 320px;
     height: 256px;
 }
 
 /*左下の画像*/
 .mitakara_bottom_leftimage {
 	width: 200px;
-  height: 130px;
+  	height: 130px;
 }
 
 /*右上の画像*/
 .mitakara_top_rightimage {
-	    width: 240px;
+	width: 240px;
     height: 150px;
 }
 
 /*右下の画像*/
 .mitakara_bottom_rightimage {
-	   width: 350px;
+	width: 350px;
     height: 240px;
 }
 
 /*misson芦野のリンク先*/
 /*ブロックCSS*/
 .misson_section_ashinolink {
-	   max-width: 800px;
+	max-width: 800px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -718,27 +729,27 @@ white-space: nowrap;
 
 /*左上の画像*/
 .ashino_top_leftimage {
-	   width: 150px;
+	width: 150px;
     height: 200px;
-	  margin-right: 40px;
+	margin-right: 40px;
 }
 
 /*右上の画像*/
 .ashino_top_rightimage {
-	    width: 450px;
+	width: 450px;
     height: 300px;
 }
 
 /*左下の画像*/
 .ashino_bottom_leftimage {
 	width: 300px;
-  height: 100px;
+  	height: 100px;
 	margin-right: 40px;
 }
 
 /*右下の画像*/
 .ashino_bottom_rightimage {
-	   width: 200px;
+	width: 200px;
     height: 100px;
 }
 
@@ -747,13 +758,14 @@ white-space: nowrap;
 /*見出しのブロック*/
 .heading_font_block{
 	width:300px;
-  height: 0px;
+  	height: 0px;
 }
 
 /*見出しのテキスト*/
 .heading_font{
 	font-size:24px;
 	width: 270px;
+	font-family: aw-conqueror-didot, serif;
 }
 
 /*見出し下のテキスト*/
@@ -774,7 +786,7 @@ white-space: nowrap;
 	-webkit-writing-mode:vertical-rl;
 	font-size:16px;
 	position: relative;
-  top: -500px;
+  	top: -500px;
 	left: 820px;
 }
 
@@ -783,8 +795,8 @@ white-space: nowrap;
 	-webkit-writing-mode:vertical-rl;
 	font-size:16px;
 	position: relative;
-      top: -380px;
-		    left: 820px;
+    top: -380px;
+	left: 820px;
 }
 
 .ad_mitakara{
@@ -792,8 +804,8 @@ white-space: nowrap;
 	-webkit-writing-mode:vertical-rl;
 	font-size:16px;
 	position: relative;
-  top: -460px;
-  left: 820px;
+  	top: -460px;
+  	left: 820px;
 }
 
 .ad_ashino {
@@ -802,7 +814,7 @@ white-space: nowrap;
 	font-size:16px;
 	position: relative;
     top: -400px;
-		left: 820px;
+	left: 820px;
 }
 
 .other{
@@ -810,20 +822,22 @@ white-space: nowrap;
 	-webkit-writing-mode:vertical-rl;
 	font-size:20px;
 	position: relative;
-   top: -810px;
-   left: 820px;
+   	top: -810px;
+   	left: 820px;
 }
 
 .link_title_benz {
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
     font-size: 16px;
+    font-family: aw-conqueror-didot, serif;
 }
 
 .link_title_asami {
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
     font-size: 16px;
+    font-family: aw-conqueror-didot, serif;
 }
 
 .link_title_mitakara{
@@ -832,37 +846,56 @@ white-space: nowrap;
     font-size: 16px;
     position:relative;
     left: 20px;
+    font-family: aw-conqueror-didot, serif;
 }
 
 .link_title_ashino {
-	   writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
     font-size: 16px;
-	  position: relative;
+	position: relative;
     top: -130px;
     left: 20px;
+    font-family: aw-conqueror-didot, serif;
 }
 
 /*recruit*/
 .recruit{
 	max-width: 700px;
-  margin: auto;
+  	margin: auto;
 	height: auto;
 }
 
 .recruit_image{
 	padding:100px 0 50px;
 	margin: auto;
-  display: block;
+  	display: block;
 }
 
 /*contact*/
 .contact_information{
-max-width: 900px;
+	max-width: 900px;
     margin: auto;
     height: auto;
     text-align: center;
-	   padding-top: 150px;
+	padding-top: 150px;
+}
+
+/*フォント調整*/
+/*英語フォント対応*/
+.english_font {
+	font-family: aw-conqueror-didot, serif;
+}
+
+/*数字のフォント対応*/
+.numeral_5 {
+    font-family: a-otf-ryumin-pr6n, serif;
+}
+
+/*数字のフォント対応(余白)*/
+.numeral {
+    font-family: a-otf-ryumin-pr6n, serif;
+    padding-left: 10px;
 }
 
 /*余白用のdiv*/
@@ -886,3 +919,798 @@ margin-bottom: 100px;
 .mb_100 {
 margin-bottom: 100px;
 }
+
+}
+
+ /*レスポンシブ スマホ対応*/
+@media screen and (max-width:480px){
+
+p {
+	font-size: 9px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.geoplus_logo {
+	color: white;
+	position: relative;
+	top: -175px;
+	left: 55px;
+	line-height: 1;
+	font-weight: 600;
+}
+
+.geoplus_logo li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.gtext_top {
+	font-size: 8px;
+}
+
+.gtext_middle {
+	font-size: 20px;
+}
+
+.gtext_bottom {
+	font-size: 10px;
+}
+
+/*about A案①*/
+
+.top_font {
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+
+.text_leftalign {
+	margin-bottom: 120px;
+}
+
+.mbtext_left {
+	position: relative;
+	top: -46px;
+}
+
+.right_image {
+	width: 135px;
+	height: auto;
+	position: relative;
+	top: -150px;
+	left: 150px;
+}
+
+.sp_box {
+	position: relative;
+	top: -105px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sp_right {
+	position: relative;
+	top: -43px;
+	left: 70px;
+}
+
+.files {
+	width: 55px;
+	height: auto;
+}
+
+.text_right {
+	text-align: right;
+}
+
+#background-draft{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+.text_middle {
+	text-align: center;
+	position: relative;
+	top: -90px;
+}
+
+.work_desk {
+	width: 100px;
+	height: auto;
+}
+
+.image_box {
+	height: auto;
+	margin: 0px;
+}
+
+.sptext {
+	position: relative;
+	top: -60px;
+}
+
+.sptext_right {
+	position: relative;
+	top: -60px;
+	left: 115px;
+}
+
+.image_sidebyside {
+	list-style: none;
+}
+
+.image_sidebyside {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.image_sidebyside li {
+	padding-left: 20px;
+}
+
+.flower_image {
+	width: 90px;
+	height: 50px;
+}
+
+.bookshelf_image {
+	width: 270px;
+	height: 130px;
+}
+
+.image_box_middlearrange {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.workdesk_sp {
+	width: 120px;
+	height: 160px;
+	margin-top: 30px;
+}
+
+.sp_logo {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
+
+.square_heading {
+    padding: 0.4em 1.3em;
+    background-color: black;
+    transition: .4s;
+    font-size: 10px;
+	color: white;
+	text-align: center;
+    width:  150px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.text_middle_top {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.sp_title {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.sp_textbuttom {
+	font-size: 7px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.text_middle_continuity {
+	font-size: 10px;
+}
+
+.staff_infoimage {
+	margin-bottom: 50px;
+}
+
+.staff_image {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10px;
+}
+
+.building_image {
+	width: 80px;
+	height: 55px;
+}
+
+.staff_name {
+	font-size: 7px;
+	text-align: center;
+}
+
+.staff_name_alphabet {
+	font-size: 6px;
+	text-align: center;
+}
+
+
+.square_heading_member {
+	padding: 0.5em 1.1em;
+    background-color: black;
+    transition: .4s;
+    font-size: 8px;
+	color: white;
+    width:  75px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#ceo_block {
+	height: 220px;
+}
+
+.sb_ceo {
+	width: 86px;
+	height: auto;
+}
+
+#ceo_information {
+	position: relative;
+	top: -84px;
+	left: 90px;
+	font-size: 6px;
+}
+
+#ceo_information p {
+	font-size: 5px;
+}
+
+.ceo {
+	font-size: 10px !important;
+}
+
+.licence {
+	position: relative;
+	top: -9px;
+	left: 85px;
+}
+
+.biography {
+	margin-left: 50px;
+}
+
+.biography_list_ad {
+	list-style: none;
+	margin-top:0em;
+	margin-left: 0em;
+	padding-right: 15px;
+}
+
+.biography_list {
+	list-style: none;
+	margin-top:0em;
+	margin-left: 0em;
+	padding-right: 15px;
+	position: relative;
+	top: -89px;
+	left: 30px;
+}
+
+.empty_biography {
+	height: 10px;
+}
+
+.biography_block {
+	height: 90px;
+}
+
+.staff_spimage {
+	width: 60px;
+	height: 60px;
+}
+
+.square_heading_information {
+	padding: 0.5em 1.1em;
+    background-color: black;
+    transition: .4s;
+    font-size: 8px;
+	color: white;
+    width:  100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#office_info {
+	font-size: 6px;
+	display: inline-flex;
+}
+
+.office_info_top {
+	display: flex;
+	align-items: center;
+	font-size: 6px;
+}
+
+.office_list_element {
+	list-style: none;
+	width: 90px;
+	margin: 0;
+}
+
+.office_list_element li {
+	height: 11.4px;
+}
+
+.office_list_back {
+	list-style: none;
+	position: relative;
+	top: -9px;
+	right: 10px;
+}
+
+.office_list_back li {
+	height: 11.4px;
+}
+
+.empty_officeinfo {
+	height: 11.4px;
+}
+
+.sp_fontsmall {
+	font-size: 4px;
+}
+
+.office_performance {
+	list-style: none;
+	font-size: 5px;
+}
+
+/*aboutB*/
+
+.h2_number {
+	display:inline;
+	position: relative;
+    top: -45px;
+	left: 35px;
+}
+
+.title_number {
+	font-size:6px;
+	width: 15px;
+	display: inline-flex;
+	position: relative;
+    top: -5px;
+}
+
+.title_number:before {
+	content: '#';
+}
+
+.title_number:after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    left: -51px;
+    display: inline-block;
+    width: 70px;
+    height: 1px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.title {
+	width: 100px;
+	height:15px;
+	display: inline-flex;
+	font-family: aw-conqueror-didot, serif;
+	font-size: 14px;
+}
+
+/*aboutAと重複箇所あり*/
+.text_middle_top {
+	text-align: center;
+	position: relative;
+	top: -30px;
+}
+
+.about_sptop {
+	font-size: 12px;
+}
+
+.text_middle {
+	text-align: center;
+	position: relative;
+	top: -20px;
+}
+
+/*misson*/
+
+.misson_section {
+	height: 
+}
+
+.benz-list {
+	list-style: none;
+	font-size: 4px;
+	margin-left: 0px;
+}
+
+.layout_benz {
+	width: 100px;
+	height: auto;
+	position: relative;
+	top: 25px;
+}
+
+.benz_shop_image {
+	width: 160px;
+	height: auto;
+	position: relative;
+	top: -130px;
+	left: 115px;
+}
+
+.ad_benz {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	position: relative;
+  	top: -230px;
+	left: 286px;
+}
+
+.benz_hr {
+	position: relative;
+	top: -175px;
+}
+
+.mission_section {
+	height: 185px;
+}
+
+.heading_bottom_font {
+	font-size: 4px;
+}
+
+.heading_font_block {
+	width: 100px;
+	margin-top: 30px;
+}
+
+.sp_asamitop {
+	width: 95%;
+	height: auto;
+}
+
+.sp_asamiimage {
+	position: relative;
+	top: -50px;
+	left: 175px;
+	width: 100px;
+	height: auto;
+}
+
+.ad_asami {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	position: relative;
+  	top: -160px;
+	left: 286px;
+}
+
+.asami_hr {
+	position: relative;
+	top: -105px;
+}
+
+.mission_section_mitakara {
+	height: 175px;
+}
+
+.mitakara_image {
+	width: 140px;
+	height: auto;
+}
+
+.heading_font_block_mitakara {
+	position: relative;
+	top: -125px;
+	left: -10px;
+	text-align: right;
+}
+
+.font_small {
+	font-size: 5px;
+}
+
+.mitakara_drawn {
+	width: 70px;
+	height: auto;
+	position: relative;
+	top: -95px;
+	left: 150px;
+}
+
+.ad_mitakara {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	position: relative;
+  	top: -180px;
+	left: 286px;
+}
+
+.mitakara_hr {
+	position: relative;
+	top: -145px;
+}
+
+.mission_section_ashino {
+	height: 200px;
+}
+
+.layout_ashino {
+	width: 100px;
+	height: auto;
+	margin-top: 50px;
+}
+
+.ashino_shop_image {
+	width: 150px;
+	height: 170px;
+	position: relative;
+	top: -170px;
+	left: 130px;
+}
+
+.ad_ashino {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	position: relative;
+  	top: -250px;
+	left: 286px;
+}
+
+.hr_Ashino {
+	position: relative;
+	top: -205px;
+}
+
+.mission_section_other {
+	height: 150px;
+}
+
+.sunset_image {
+	width: 100px;
+	height: auto;
+}
+
+.other_twophoto {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    top: -140px;
+	left: 115px;
+}
+
+.other_restrant {
+	width: 110px;
+	height: auto;
+	margin-bottom: 7px;
+}
+
+.other_terrace {
+	width: 150px;
+	height: 60px;
+}
+
+.other {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	position: relative;
+  	top: -285px;
+	left: 286px;
+}
+
+.mission_section_benzlink {
+    display: flex;
+}
+
+.benz_leftimage {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.benz_top_leftimage {
+    width: 140px;
+    height: 105px;
+    margin-bottom: 20px;
+}
+
+.benz_bottom_leftimage {
+    width: 80px;
+    height: 45px;
+}
+
+.benz_rightimage {
+    flex-flow: column;
+    margin-left: 20px;
+}
+
+.benz_top_rightimage {
+    width: 75px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.benz_bottom_rightimage {
+    width: 110px;
+    height: 100px;
+}
+
+.link_title_benz {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	padding-left: 10px;
+}
+
+.mission_section_benzlink {
+    display: flex;
+}
+
+.benz_leftimage {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.asami_top_leftimage {
+    width: 180px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.asami_bottom_leftimage {
+    width: 100px;
+    height: 70px;
+}
+
+.mitakara_rightimage {
+    flex-flow: column;
+    width: 150px;
+    height: 160px;
+    margin-left: 15px;
+}
+
+.link_title_asami {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	padding-left: 10px;
+}
+
+.mitakara_top_leftimage {
+	width: 110px;
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+.mitakara_bottom_leftimage {
+	width: 70px;
+	height: 45px;
+}
+
+.mitakara_top_rightimage {
+	width: 90px;
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.mitakara_bottom_rightimage {
+	width: 130px;
+	height: 90px;
+}
+
+.link_title_mitakara {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	padding-left: 10px;
+}
+
+.ashino_topblock {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+
+.ashino_top_leftimage {
+    width: 85px;
+    height: 115px;
+    margin-right: 20px;
+}
+
+.ashino_top_rightimage {
+    width: 170px;
+    height: 150px;
+}
+
+.ashino_bottomblock {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 15px;
+}
+
+.ashino_bottom_leftimage {
+    width: 110px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.ashino_bottom_rightimage {
+    width: 100px;
+    height: 50px;
+}
+
+.link_title_ashino {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode:vertical-rl;
+	font-size: 9px;
+	padding-left: 10px;
+	position: relative;
+	top: -42px;
+}
+
+.sp_textmiddle {
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+
+/*余白(打ち消し含む)*/
+
+.spmb_10{
+margin-bottom: 10px;	
+}
+
+.spmb_30{
+margin-bottom: 30px;	
+}
+
+.mb_10 {
+margin-bottom: 0px;
+}
+
+.mb_30 {
+margin-bottom: 0px;
+}
+
+.mb_50 {
+margin-bottom: 0px;
+}
+
+.mb_70 {
+margin-bottom: 0px;
+}
+
+.mb_100 {
+margin-bottom: 0px;
+}
+
+}
+
+
